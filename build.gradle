@@ -291,7 +291,8 @@ subprojects {
       repositories {
         // To test locally, invoke gradlew with `-PmavenUrl=file:///some/local/path`
         maven {
-          url = mavenUrl
+//          url = mavenUrl
+          url = 'https://maven.aliyun.com/nexus/content/groups/public/'
           credentials {
             username = mavenUsername
             password = mavenPassword
